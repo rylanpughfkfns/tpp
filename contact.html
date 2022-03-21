@@ -31,17 +31,18 @@
      action="https://formspree.io/f/mayvbblz"
   method="POST">
       <div class = "div1">
-        Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-        Email*<br><input type="email" size="30" required name="email"><br>
-        Telephone*<br><input type="tel" size="30" required name="telephone"><br>
-      Website<br><input type="url" size="30"  name="fullname"><br>
+        Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="Name"><br>
+        Email*<br><input type="email" size="30" required name="email" aria-label="Name"><br>
+        Telephone*<br><input type="tel" size="30" required name="telephone" aria-label="Name"><br>
+      Website<br><input type="url" size="30" name="fullname" aria-label="Name"><br>
+
        
        
 
         
       </div>
       <div class = "div2">
-        Current High School: <br><input type="text" list="vaca"><br>
+        Current High School: <br><input type="text" list="vaca" aria-label="Name"><br>
         <datalist id="vaca">
         <option value="beaverbrook">
          <option value="birchwood">
@@ -50,8 +51,8 @@
          <option value="Hainesville">
          <option value="other">
         </datalist>
-        Expected date of entry<br><input type="date" name= "date"><br>
-        Number of days/week desired<br><input type="number" name= "date"><br>
+        Expected date of entry: <br><input type="date" name="date" aria-label="Name"><br>
+        Number of days/week desired: <br><input type="number" name="date" aria-label="Name"><br>
         <br>
         <input type= "submit" value="Help Me Book Boost My Scores!" class="button">
       </div>
